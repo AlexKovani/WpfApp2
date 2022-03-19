@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp22"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="450">
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="400*"/>
+        </Grid.RowDefinitions>
+        <Border BorderBrush="#FF080000" BorderThickness="4,4,2,2">
+            <TextBlock  Text="1234,567" Background="#FFE0E0FF" TextAlignment="Right" LineHeight="22" FontSize="35" FontFamily="Arial" />
+        </Border>
+        <UniformGrid Rows=" 5" Columns="4" Grid.Row="1">
+            <Button Content="C" FontSize="25" Background="#FF6C776A"/>
+            <Button Content="CE" FontSize="25" Background="#FF6C776A"/>
+            <Button Content="()" FontSize="25" BorderBrush="#FF48CD2D" Background="#FF6C776A"/>
+            <Button Content="/" FontSize="25" Background="#FF48CD2D" BorderBrush="Black"/>
+            <Button Content="7" FontSize="25"/>
+            <Button Content="8" FontSize="25"/>
+            <Button Content="9" FontSize="25"/>
+            <Button Content="*" FontSize="25" Background="#FF48CD2D" BorderBrush="Black"/>
+            <Button Content="4" FontSize="25"/>
+            <Button Content="5" FontSize="25"/>
+            <Button Content="6" FontSize="25"/>
+            <Button Content="-" FontSize="25" Background="#FF48CD2D" BorderBrush="Black"/>
+            <Button Content="1" FontSize="25"/>
+            <Button Content="2" FontSize="25"/>
+            <Button Content="3" FontSize="25"/>
+            <Button Content="+" FontSize="25" Background="#FF48CD2D" BorderBrush="Black"/>
+            <Button Content="+/-" FontSize="25"/>
+            <Button Content="0" FontSize="25"/>
+            <Button Content="," FontSize="25"/>
+            <Button Content="=" FontSize="25" Background="#FFD1A727" BorderBrush="Black" />
+
+
+        </UniformGrid>
+
+    </Grid>
+</Window>
